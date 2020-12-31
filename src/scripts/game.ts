@@ -4,7 +4,7 @@ import ScaleModes = Phaser.Scale.ScaleModes
 import Center = Phaser.Scale.Center
 
 const DEFAULT_WIDTH = 360
-const DEFAULT_HEIGHT = 592
+const DEFAULT_HEIGHT = 650
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
