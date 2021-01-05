@@ -7,7 +7,7 @@ const DEFAULT_WIDTH = 360
 const DEFAULT_HEIGHT = 650
 
 const config: Phaser.Types.Core.GameConfig = {
-  type: Phaser.AUTO,
+  type: Phaser.CANVAS,
   scale: {
     parent: 'phaser-game',
     mode: ScaleModes.FIT,
@@ -19,7 +19,6 @@ const config: Phaser.Types.Core.GameConfig = {
   physics: {
     default: 'arcade',
     arcade: {
-      debug: false,
       gravity: { y: 1000 }
     },
   }
